@@ -1,0 +1,19 @@
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkpvaG4gRG9lIiwicm9sZSI6ImFkbWluIiwiZW1haWwiOiJqb2huZG9lQG1haWwuY29tIiwiaWF0IjoxNzQ1OTQ5Mzg2fQ.XKYOLRTIRnqbYWpLCeW-7jTCQPyfazy6Ru0KDp5A1d0
+
+###
+GET http://localhost:3000/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkpvaG4gRG9lIiwicm9sZSI6ImFkbWluIiwiZW1haWwiOiJqb2huZG9lQG1haWwuY29tIiwiaWF0IjoxNzQ1OTQ5Mzg2fQ.XKYOLRTIRnqbYWpLCeW-7jTCQPyfazy6Ru0KDp5A1d0
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "johndoe@mail.com",
+  "password": "password123"
+}
